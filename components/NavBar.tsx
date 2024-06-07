@@ -10,7 +10,7 @@ const NavBar = () => {
         sm:px-16 px-6 py-4">
         <Link href="/" className="flex justify-center items-center">
             <Image 
-            src="/car-image.png"
+            src="/logo.svg"
             alt="CarQuest logo"
             width={118}
             height={118}
