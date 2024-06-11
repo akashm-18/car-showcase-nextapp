@@ -1,6 +1,10 @@
 import React from 'react'
 
-const CustomFilter = () => {
+interface TitleProps {
+  title : string
+}
+
+const CustomFilter = ({title} : TitleProps) => {
   return (
     <div>
       Custom Filter
